@@ -15,7 +15,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app); 
+// const db = getFirestore(app); // Commented out for now 
 
 // Now you can use Firebase services like Firestore
 
