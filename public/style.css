@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 10px; /* Reduced padding for mobile */
+  background-color: #f8f8f8; /* Slightly lighter background */
+  color: #333;
+  max-width: 600px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px; /* Reduced margin for mobile */
+  font-size: 2em; /* Slightly smaller heading for mobile */
+  color: #2196F3;
+}
+
+/* Add some basic styling for your form elements */
+input[type="email"],
+input[type="password"],
+input[type="file"],
+button {
+  padding: 8px; /* Reduced padding for mobile */
+  margin-bottom: 8px; /* Reduced margin for mobile */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+button {
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1976D2; /* Darker blue for hover effect */
+}
+
+/* Style the canvas */
+#signature-canvas {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Smaller font size for mobile */
+  }
+
+  h1 {
+    font-size: 1.8em; /* Smaller heading for mobile */
+  }
+
+  #auth-container {
+    margin-bottom: 20px; /* Add more space between sections on mobile */
+  }
+}
+
+#auth-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+#document-viewer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff; /* White background */
+}
+
+/* Error and Success Message Styling */
+#error-message {
+  color: red;
+  padding: 10px;
+  background-color: #ffcccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: none; /* Hide by default */
+}
+
+.success-message {
+  color: green;
+  padding: 10px;
+  background-color: #d4edda;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Input Focus States */
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus {
+  border-color: #2196F3;
+  outline: none;
+}
