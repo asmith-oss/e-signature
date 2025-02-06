@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/e-signature-app/static/css/main.e6c13ad2.css",
-    "main.js": "/e-signature-app/static/js/main.0398d217.js",
-    "static/js/488.af104311.chunk.js": "/e-signature-app/static/js/488.af104311.chunk.js",
-    "index.html": "/e-signature-app/index.html",
-    "main.e6c13ad2.css.map": "/e-signature-app/static/css/main.e6c13ad2.css.map",
-    "main.0398d217.js.map": "/e-signature-app/static/js/main.0398d217.js.map",
-    "488.af104311.chunk.js.map": "/e-signature-app/static/js/488.af104311.chunk.js.map"
+    "main.css": "/e-signature/static/css/main.e6c13ad2.css",
+    "main.js": "/e-signature/static/js/main.fcaaa4c4.js",
+    "static/js/488.af104311.chunk.js": "/e-signature/static/js/488.af104311.chunk.js",
+    "index.html": "/e-signature/index.html",
+    "main.e6c13ad2.css.map": "/e-signature/static/css/main.e6c13ad2.css.map",
+    "main.fcaaa4c4.js.map": "/e-signature/static/js/main.fcaaa4c4.js.map",
+    "488.af104311.chunk.js.map": "/e-signature/static/js/488.af104311.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0398d217.js"
+    "static/js/main.fcaaa4c4.js"
   ]
 }
