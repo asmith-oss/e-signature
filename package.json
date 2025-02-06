@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://asmith-oss.github.io/e-signature-app/",
+  "homepage": "https://asmith-oss.github.io/e-signature",
   "private": true,
   "dependencies": {
     "@firebase/data-connect": "^0.2.0",
